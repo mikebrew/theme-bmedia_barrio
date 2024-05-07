@@ -2,3 +2,91 @@
  * @file
  * Subtheme specific CSS.
  */
+aside nav a.is-active {
+  background: aliceblue;
+}
+
+.table thead th {
+  background-color: var(--bs-gray-dark, #343a40);
+  color: #fff;
+}
+
+.inprogress {
+  background: #007bff !important;
+}
+
+.pending {
+  background: var(--bs-gray-500) !important;
+}
+
+.review {
+  background: #ffc107 !important;
+}
+
+.completed,
+.resolved {
+  background: #28a745 !important;
+}
+
+.testing {
+  background: #17a2b8 !important;
+}
+
+.hold {
+  background: #6c757d !important;
+}
+
+.container-tag {
+  border-top: 1px solid var(--bs-gray-500);
+  border-bottom: 1px solid var(--bs-gray-500);
+  border-right: 1px solid var(--bs-gray-500);
+}
+.container-tag-1 {
+  border-left: 10px solid var(--bs-red) !important;
+}
+.container-tag-5 {
+  border-left: 10px solid var(--bs-green) !important;
+}
+.container-tag-9 {
+  border-left: 10px solid var(--bs-teal) !important;
+}
+
+.tag-1 {
+  background: var(--bs-red) !important;
+}
+.tag-5 {
+  background: var(--bs-green) !important;
+}
+.tag-9 {
+  background: var(--bs-teal) !important;
+}
+
+.btn-wrap > a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-wrap-lg > a {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+.btn-wrap-primary > a {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-wrap-primary > a:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/*# sourceMappingURL=style.css.map */
