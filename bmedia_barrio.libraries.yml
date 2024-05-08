@@ -2,7 +2,7 @@ global-styling:
   version: VERSION
   js:
     js/global.js: {}
-    /libraries/clipboard/clipboard.min.js: {}
+    js/clipboard.min.js: {}
   css:
     component:
       css/style.css: {}
