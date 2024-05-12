@@ -1,0 +1,9 @@
+{# paragraph--email.html.twig #}
+<div class="email my-1">
+    <span>
+        <a href="mailto:{{ content.field_email|render|striptags|raw|trim }}" class="btn btn-light link-secondary" title="Send email to {{ content.field_email|render|striptags|raw|trim }}">
+            <i class="fa-regular fa-envelope"></i> {{ content.field_email|render|striptags|raw|trim }}
+        </a>
+    </span>
+    <span class="badge text-bg-light text-uppercase">{{ content.field_email_type|render|striptags|raw }}</span>
+</div>

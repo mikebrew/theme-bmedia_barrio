@@ -1,0 +1,9 @@
+{# paragraph--phone.html.twig #}
+<div class="phone my-1">
+    <span>
+        <a href="tel:{{ content.field_phone_number|render|striptags|raw|trim }}" class="btn btn-light link-secondary" title="Call {{ content.field_phone_number|render|striptags|raw|trim }}">
+            <i class="fa-solid fa-phone"></i> {{ content.field_phone_number|render|striptags|raw|trim }}
+        </a>
+    </span>
+    <span class="badge text-bg-light text-uppercase">{{ content.field_phone_type|render|striptags|raw }}</span>
+</div>
